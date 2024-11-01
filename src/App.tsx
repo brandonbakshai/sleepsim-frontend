@@ -1,6 +1,14 @@
 import "./App.css";
+import axios from "axios";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/trackdata/SNUADCECG_II")
+      .then((response) => console.log(response.data));
+  });
+
   return (
     <>
       <div className="header">
