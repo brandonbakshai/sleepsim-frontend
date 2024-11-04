@@ -27,8 +27,8 @@ function App() {
           </div>
           <div className="content">
             <p>
-              I built this to <b>demonstrate the strongest interest</b> in the
-              SBH DA residency program.
+              I built this to <b>demonstrate strong interest</b> in the SBH DA
+              residency program.
             </p>
             <p>Previous programming projects</p>
             <ul>

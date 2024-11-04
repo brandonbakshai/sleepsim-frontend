@@ -96,7 +96,7 @@ div#title {
 
 .module {
   width: 25em;
-  height: 25em;
+  min-height: 25em;
   border: solid;
   border-color: #5e617f;
   border-radius: 2%;
