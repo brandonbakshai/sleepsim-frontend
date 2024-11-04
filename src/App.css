@@ -40,8 +40,9 @@ body {
   border-color: #5e617f;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
+  color: #dedfec;
 }
 
 .header {
@@ -53,6 +54,12 @@ body {
   background-color: #5e617f;
   color: #dedfec;
   padding: 1em;
+}
+
+.header > h1 {
+  font-size: calc(1vw + 1vh);
+  justify-content: center;
+  align-items: center;
 }
 
 #content {
@@ -88,8 +95,8 @@ div#title {
 }
 
 .module {
-  min-width: 25em;
-  min-height: 25em;
+  width: 25em;
+  height: 25em;
   border: solid;
   border-color: #5e617f;
   border-radius: 2%;
@@ -100,4 +107,26 @@ div#title {
   border-top-left-radius: 2%;
   border-top-right-radius: 2%;
   justify-content: center;
+}
+
+.module > .content {
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+  justify-content: center;
+  justify-content: left;
+  width: 100%;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding: 1em;
+}
+
+p,
+li {
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
